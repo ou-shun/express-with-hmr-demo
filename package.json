@@ -1,0 +1,34 @@
+{
+  "name": "express-with-hmr-demo",
+  "version": "1.0.0",
+  "description": "express with hmr demo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "hmr"
+  ],
+  "author": "oushun",
+  "license": "ISC",
+  "dependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.10",
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-refresh": "^0.14.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^9.1.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-middleware": "^6.0.1",
+    "webpack-hot-middleware": "^2.25.3"
+  }
+}
