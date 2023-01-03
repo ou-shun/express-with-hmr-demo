@@ -1,11 +1,8 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
-
-const DOMElement = (
-  <b>Change This Content To See HMR...</b>
-);
+import TestHMRComponent from './ele';
 
 ReactDOM.render(
-  DOMElement,
+  <TestHMRComponent />,
   document.getElementById('app'),
 );
